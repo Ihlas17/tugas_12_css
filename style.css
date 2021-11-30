@@ -1,0 +1,49 @@
+ul{
+    background-color: black;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px
+}
+li{
+    float: left;
+}
+.image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.p-text{
+    height: 400px;
+    column-width: 300px;
+    column-fill: balance;
+    column-rule: 5px double black;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+.slider{
+    background-image: radial-gradient(circle at bottom right,white,blue);
+}
+.slider-img{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.card{
+    background-image: radial-gradient(circle at bottom right,white,blue);
+    background-size: cover;
+}
+main{
+    margin: 0px;
+}
